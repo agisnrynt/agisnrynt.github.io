@@ -20,7 +20,9 @@ export default hopeTheme({
 
   repoDisplay: true,
 
-  docsDir: "docs",
+  docsDir: "src",
+
+  docsBranch: 'master',
 
   blog: {
     medias: {
