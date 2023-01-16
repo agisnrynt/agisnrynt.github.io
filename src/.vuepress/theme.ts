@@ -5,12 +5,6 @@ import { enSidebar, zhSidebar } from "./sidebar/index.js";
 export default hopeTheme({
   hostname: "https://agisnrynt.github.io",
 
-  head: [
-    ['meta', { name: 'google-site-verification', content: '8lVFhUiR8crIG720g91nh-p7X3GYinywBRUMdVJxNiY' }],
-    ['meta', { name: 'msvalidate.01', content: 'F1823D2F2EE21D91D830BEC4C68FBC95' }],
-    ['meta', { name: 'yandex-verification', content: '2632c5647ee38f86' }]
-  ]
-
   author: {
     name: "Agis Nuryanto",
     url: "https://agisnrynt.github.io/about-me",
