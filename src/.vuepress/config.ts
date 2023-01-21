@@ -20,7 +20,6 @@ export default defineUserConfig({
       ],
     }),
   ],
-
   base: "/",
 
   locales: {

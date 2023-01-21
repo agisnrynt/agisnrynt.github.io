@@ -24,15 +24,24 @@ export default hopeTheme({
 
   repoLabel: "GitHub",
 
-  repoDisplay: true,
+  repoDisplay: false,
+
+  outlook: {
+    themeColor: {
+      blue: "#2196f3",
+      red: "#f26d6d",
+      green: "#3eaf7c",
+      orange: "#fb9b5f",
+    },
+    darkmode: "switch",
+    fullscreen: true,
+  },
 
   docsDir: "src",
 
   docsBranch: 'master',
 
-  editLinks: false,
-
-  editLinkText: 'Help us improve this page!',
+  editLinks: true,
 
   blog: {
     medias: {
@@ -48,24 +57,12 @@ export default hopeTheme({
       QQ: "https://example.com",
       Qzone: "https://example.com",
       Reddit: "https://example.com",
-      Rss: "https://example.com",
       Twitter: "https://example.com",
       Wechat: "https://example.com",
       Weibo: "https://example.com",
       Youtube: "https://example.com",
     },
   },
-
-  themeColor: {
-    blue: "#2196f3",
-    red: "#f26d6d",
-    green: "#3eaf7c",
-    orange: "#fb9b5f",
-  },
-
-  darkmode: "switch",
-
-  fullscreen: true,
 
   locales: {
     "/": {
