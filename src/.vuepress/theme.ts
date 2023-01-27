@@ -26,16 +26,16 @@ export default hopeTheme({
 
   repoDisplay: false,
 
-  outlook: {
-    themeColor: {
-      blue: "#2196f3",
-      red: "#f26d6d",
-      green: "#3eaf7c",
-      orange: "#fb9b5f",
-    },
-    darkmode: "switch",
-    fullscreen: true,
+  themeColor: {
+    blue: "#2196f3",
+    red: "#f26d6d",
+    green: "#3eaf7c",
+    orange: "#fb9b5f",
   },
+
+  darkmode: "switch",
+
+  fullscreen: true,
 
   docsDir: "src",
 
