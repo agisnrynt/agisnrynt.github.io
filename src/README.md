@@ -3,9 +3,10 @@ home: true
 layout: BlogHome
 icon: home
 title: Home
-heroImage: /logo.svg
-heroText: the name of your blog
-tagline: You can put your slogan here
+heroImage: false
+bgImage: /assets/images/wallpaper.jpg
+heroText: false
+tagline: <q><em><strong>When you want to give up,</strong></br>Remember why you started</em></q>
 heroFullScreen: true
 projects:
   - icon: project
@@ -38,7 +39,7 @@ projects:
     desc: Detailed description of this custom item
     link: https://link.to.your.friend
 
-footer: <a href="/privacy" rel="noopener noreferrer " target="_blank">Privacy</a> |  <a href="/intro" rel="noopener noreferrer " target="_blank">About</a> | <a href="mailto:agisnuryanto@outlook.co.id" rel="noopener noreferrer " target="_blank">Contact</a><br>Licensed Under <a href="https://github.com/vuepress-theme-hope/vuepress-theme-hope/blob/main/LICENSE" rel="noopener noreferrer " target="_blank">MIT License</a>
+footer: <a href="/privacy" rel="noopener noreferrer " target="_blank">Privacy</a> |  <a href="/intro" rel="noopener noreferrer " target="_blank">About</a> | <a href="mailto:agisnuryanto@outlook.co.id" rel="noopener noreferrer " target="_blank">Contact</a></br></br>This site is uses Hope theme and Licensed Under <a href="https://github.com/vuepress-theme-hope/vuepress-theme-hope/blob/main/LICENSE" rel="noopener noreferrer " target="_blank">MIT License</a>
 ---
 
 This is a blog home page demo.

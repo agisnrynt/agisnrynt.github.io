@@ -6,12 +6,12 @@ export const enNavbar = navbar([
   {
     text: "Category",
     icon: "categoryselected",
-    prefix: "/category/",
+    prefix: "/",
     children: [
       {
         text: "Tutorial",
         icon: "creative",
-        link: "tutorial/",
+        link: "blog/tutorial/",
       },
       {
         text: "Android Game",
@@ -21,9 +21,9 @@ export const enNavbar = navbar([
       {
         text: "Programming",
         icon: "template",
-        link: "programming/",
+        link: "blog/programming/",
       },
     ],
   },
-  { text: "Feed", icon: "rss", link: "/sitemap.xml" },
+  { text: "Feed", icon: "rss", link: "/sitemap" },
 ]);

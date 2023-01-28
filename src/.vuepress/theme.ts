@@ -207,12 +207,12 @@ export default hopeTheme({
         {
           text: "Kategori",
           icon: "categoryselected",
-          prefix: "/id/category/",
+          prefix: "/id/",
           children: [
             {
               text: "Tutorial",
               icon: "creative",
-              link: "tutorial/", 
+              link: "blog/tutorial/", 
             },
             {
               text: "Game Android",
@@ -222,11 +222,11 @@ export default hopeTheme({
             {
               text: "Programming",
               icon: "template",
-              link: "programming/",
+              link: "blog/programming/",
             },
           ],
         },
-        { text: "Peta situs", icon: "rss", link: "/sitemap.xml" },
+        { text: "Peta situs", icon: "rss", link: "/sitemap" },
       ],
 
       // sidebar
