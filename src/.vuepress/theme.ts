@@ -226,7 +226,7 @@ export default hopeTheme({
             },
           ],
         },
-        { text: "Peta situs", icon: "rss", link: "/sitemap" },
+        { text: "Peta situs", icon: "rss", link: "https://agisnrynt.github.io/sitemap.xml" },
       ],
 
       // sidebar

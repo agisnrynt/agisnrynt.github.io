@@ -25,5 +25,5 @@ export const enNavbar = navbar([
       },
     ],
   },
-  { text: "Feed", icon: "rss", link: "/sitemap" },
+  { text: "Feed", icon: "rss", link: "https://agisnrynt.github.io/sitemap.xml" },
 ]);
