@@ -1,0 +1,1 @@
+import{ab as e,G as o,H as t}from"./framework-03ed10d2.js";const n={};function r(a,c){return o(),t("div")}const s=e(n,[["render",r],["__file","how-to-install-termux-on-android.html.vue"]]);export{s as default};
