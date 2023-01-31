@@ -41,7 +41,11 @@ export default hopeTheme({
 
   docsBranch: 'master',
 
+  lastUpdated: true,
+
   editLink: true,
+
+  contributors: true,
 
   blog: {
     avatar: "/assets/images/avatar.jpg",
@@ -80,17 +84,17 @@ export default hopeTheme({
       // sidebar
       sidebar: "heading",
 
-      footer: '<a href="/privacy" rel="noopener noreferrer " target="_blank">Privacy</a> |  <a href="/intro" rel="noopener noreferrer " target="_blank">About</a> | <a href="mailto:agisnuryanto@outlook.co.id" rel="noopener noreferrer " target="_blank">Contact</a></br></br>This site is uses Hope theme and Licensed Under <a href="https://github.com/vuepress-theme-hope/vuepress-theme-hope/blob/main/LICENSE" rel="noopener noreferrer " target="_blank">MIT License</a>',
+      footer: '<a href="/privacy" rel="noopener noreferrer " target="_blank">Privacy</a> |  <a href="/intro" rel="noopener noreferrer " target="_blank">About</a> | <a href="mailto:agisnuryanto@outlook.co.id" rel="noopener noreferrer " target="_blank">Contact</a> | <a href="https://github.com/agisnrynt/agisnrynt.github.io/blob/master/LICENSE" rel="noopener noreferrer " target="_blank">License</a>',
 
       displayFooter: true,
 
       blog: {
-        description: "A FrontEnd programmer",
+        description: "Hi, I am the author of this blog.I love playing games and learn programming, and that's what this blog is for.</br></br>If you found this blog useful, share it on your social media.</br>You can also follow me on my social media links below",
         intro: "/intro.html",
       },
 
       metaLocales: {
-        editLink: "Edit this page on GitHub",
+        editLink: "Suggest an edit",
       },
     },
     "/id/": {
@@ -126,8 +130,8 @@ export default hopeTheme({
         errorHint: "Kata sandi yang anda masukkan salah",
       },
       navbarLocales: {
-        selectLangAriaLabel: "Indonesia",
-        langName: "Bahasa",
+        selectLangAriaLabel: "Bahasa",
+        langName: "Indonesian",
       },
 
       metaLocales: {
@@ -144,7 +148,7 @@ export default hopeTheme({
         next: "selanjutnya",
         lastUpdated: "diperbarui",
         contributors: "kontributor",
-        editLink: "edit halaman ini",
+        editLink: "Sarankan pengeditan",
       },
 
       routeLocales: {
@@ -240,13 +244,13 @@ export default hopeTheme({
       // sidebar
       sidebar: "heading",
 
-      footer: '<a href="/id/privacy" rel="noopener noreferrer " target="_blank">Privasi</a> |  <a href="/id/intro" rel="noopener noreferrer " target="_blank">Tentang</a> | <a href="mailto:agisnuryanto@outlook.co.id" rel="noopener noreferrer " target="_blank">Kontak</a></br></br>Situs ini menggunakan tema Hope dibawah Lisensi <a href="https://github.com/vuepress-theme-hope/vuepress-theme-hope/blob/main/LICENSE" rel="noopener noreferrer " target="_blank">MIT</a>',
+      footer: '<a href="/id/privacy" rel="noopener noreferrer " target="_blank">Privasi</a> |  <a href="/id/intro" rel="noopener noreferrer " target="_blank">Tentang</a> | <a href="mailto:agisnuryanto@outlook.co.id" rel="noopener noreferrer " target="_blank">Kontak</a> | <a href="https://github.com/agisnrynt/agisnrynt.github.io/blob/master/LICENSE" rel="noopener noreferrer " target="_blank">Lisensi</a>',
 
       displayFooter: true,
 
       // blogLocales: 
       blog: {
-        description: "Halaman Bahasa indonesia",
+        description: "Hi, aku adalah penulis di blog ini. Aku suka bermain game dan belajar pemrograman, dan untuk itulah tujuan dari blog ini dibuat .</br></br>Jika kamu merasa blog ini bermanfaat, bagikan di media sosialmu.</br>Kamu juga bisa mengikutiku di link sosmed yang telah kucantumkan di bawah",
         intro: "/id/intro.html",
       },
     },

@@ -3,6 +3,9 @@ home: true
 layout: BlogHome
 icon: home
 title: Home
+description: Agis is a personal blog
+excerpt: We can learn and help each other about programming on this blog
+image: /assets/images/wallpaper.jpg
 heroImage: false
 bgImage: /assets/images/wallpaper.jpg
 heroText: false
@@ -39,9 +42,3 @@ projects:
     desc: Detailed description of this custom item
     link: https://link.to.your.friend
 ---
-
-This is a blog home page demo.
-
-To use this layout, you should set both `layout: BlogHome` and `home: true` in the page front matter.
-
-For related configuration docs, please see [blog homepage](https://theme-hope.vuejs.vuepress/guide/blog/home/).
