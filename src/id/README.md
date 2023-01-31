@@ -3,6 +3,9 @@ home: true
 layout: BlogHome
 icon: home
 title: Beranda
+description: test details
+image: /assets/images/wallpaper.jpg
+excerpt: test excerpt
 heroImage: false
 bgImage: /assets/images/wallpaper.jpg
 heroText: false
@@ -38,8 +41,6 @@ projects:
     name: custom item
     desc: Detailed description of this custom item
     link: https://link.to.your.friend
-
-footer: <a href="/id/privacy" rel="noopener noreferrer " target="_blank">Privasi</a> |  <a href="/id/intro" rel="noopener noreferrer " target="_blank">Tentang</a> | <a href="mailto:agisnuryanto@outlook.co.id" rel="noopener noreferrer " target="_blank">Hubungi saya</a></br></br>Situs ini menggunakan tema Hope dibawah Lisensi <a href="https://github.com/vuepress-theme-hope/vuepress-theme-hope/blob/main/LICENSE" rel="noopener noreferrer " target="_blank">MIT</a>
 ---
 
 This is a blog home page demo.
