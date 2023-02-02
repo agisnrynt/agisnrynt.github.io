@@ -42,3 +42,6 @@ projects:
     desc: Detailed description of this custom item
     link: https://link.to.your.friend
 ---
+![ ](./assets/logo.svg)
+Ini adalah excerpt
+<!-- more -->
