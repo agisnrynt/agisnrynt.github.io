@@ -122,7 +122,7 @@ export default hopeTheme({
   encrypt: {
     config: {
       "/blog/index.html": ["agis4915"],
-      "/id/blog/index.html": ["agis4915"],
+      "/zh/blog/index.html": ["agis4915"],
     },
   },
 
