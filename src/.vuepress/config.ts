@@ -28,10 +28,10 @@ export default defineUserConfig({
       title: "Agis Nuryanto",
       description: "A documentation blog",
     },
-    "/id/": {
-      lang: "id",
+    "/zh/": {
+      lang: "zh-CN",
       title: "Agis Nuryanto",
-      description: "Sebuah blog dokumentasi",
+      description: "文档博客",
     },
   },
 

@@ -82,7 +82,7 @@ export default hopeTheme({
       navbar: enNavbar,
 
       // sidebar
-      sidebar: "heading",
+      sidebar: enSidebar,
 
       footer: '<a href="/privacy" rel="noopener noreferrer " target="_blank">Privacy</a> |  <a href="/intro" rel="noopener noreferrer " target="_blank">About</a> | <a href="mailto:agisnuryanto@outlook.co.id" rel="noopener noreferrer " target="_blank">Contact</a></br>Theme by <a href="https://theme-hope.vuejs.press/" target="_blank">VuePress Theme Hope</a> | <a href="https://github.com/agisnrynt/agisnrynt.github.io/blob/master/LICENSE" rel="noopener noreferrer " target="_blank">MIT Licensed</a>',
 
@@ -97,112 +97,28 @@ export default hopeTheme({
         editLink: "Suggest an edit",
       },
     },
-    "/id/": {
-      outlookLocales: {
-        themeColor: "Pilih warna",
-        darkmode: "Mode gelap",
-        fullscreen: "Layar penuh",
-      },
-      blogLocales: {
-        article: "Artikel",
-        articleList: "Daftar artikel",
-        category: "Kategori",
-        tag: "Tag",
-        timeline: "Linimasa",
-        timelineTitle: "Linimasa Postingan",
-        all: "Semua",
-        intro: "Bio",
-        star: "Di pin",
-        slides: "Halaman presentasi",
-        encrypt: "Halaman yang dikunci",
-      },
-      paginationLocales: {
-        prev: "Sebelumnya",
-        next: "Selanjutnya",
-        navigate: "Ke Halaman",
-        action: "Pergi",
-        errorText: "Halaman tidak tersedia",
-      },
-      encryptLocales: {
-        iconLabel: "Halaman ini di kunci",
-        placeholder: "Masukkan kata sandi",
-        remember: "Ingat kata sandi",
-        errorHint: "Kata sandi yang anda masukkan salah",
-      },
-      navbarLocales: {
-        selectLangAriaLabel: "Indonesian",
-        langName: "Bahasa",
-      },
-
-      metaLocales: {
-        author: "penulis",
-        date: "tanggal",
-        origin: "dibuat",
-        views: "dilihat",
-        tag: "tag",
-        category: "kategori",
-        readingTime: "waktu untuk membaca",
-        words: "jumlah kata",
-        toc: "daftar isi",
-        prev: "sebelumnya",
-        next: "selanjutnya",
-        lastUpdated: "diperbarui",
-        contributors: "kontributor",
-        editLink: "Sarankan pengeditan",
-      },
-
-      routeLocales: {
-        skipToContent: "ke halaman utama",
-        notFoundMsg: ["Halaman yang anda tuju tidak tersedia", "Anda telah memasukkan tautan yang salah", "Tautan yang anda tuju mungkin telah dihapus"],
-        home: "Ke Beranda",
-        back: "Kembali",
-        openInNewWindow: "Buka di tab baru",
-      },
-  
+    
+    /**
+     * Chinese locale config
+     */
+    "/zh/": {
       // navbar
-      navbar: [
-        { text: "Beranda", icon: "home", link: "/id/" },
-        { text: "Linimasa", icon: "line", link: "/id/timeline/" },
-        {
-          text: "Kategori",
-          icon: "categoryselected",
-          prefix: "/id/",
-          children: [
-            {
-              text: "Tutorial",
-              icon: "creative",
-              link: "blog/tutorial/", 
-            },
-            {
-              text: "Game Android",
-              icon: "android",
-              link: "game/",
-            },
-            {
-              text: "Programming",
-              icon: "template",
-              link: "blog/programming/",
-            },
-          ],
-        },
-        { text: "Peta situs", icon: "rss", link: "https://agisnrynt.github.io/sitemap.xml" },
-      ],
+      navbar: zhNavbar,
 
       // sidebar
-      sidebar: "heading",
+      sidebar: zhSidebar,
 
-      footer: '<a href="/id/privacy" rel="noopener noreferrer " target="_blank">Privasi</a> |  <a href="/id/intro" rel="noopener noreferrer " target="_blank">Tentang</a> | <a href="mailto:agisnuryanto@outlook.co.id" rel="noopener noreferrer " target="_blank">Kontak</a> | <a href="https://github.com/agisnrynt/agisnrynt.github.io/blob/master/LICENSE" rel="noopener noreferrer " target="_blank">Lisensi</a>',
+      footer: "默认页脚",
 
       displayFooter: true,
 
-      // blogLocales: 
-      blog: {
-        description: "Hi, aku adalah penulis di blog ini. Aku suka bermain game dan belajar pemrograman, dan untuk itulah tujuan dari blog ini dibuat .</br></br>Jika kamu merasa blog ini bermanfaat, bagikan di media sosialmu.</br>Kamu juga bisa mengikutiku di link sosmed yang telah kucantumkan di bawah",
-        intro: "/id/intro.html",
+      // page meta
+      metaLocales: {
+        editLink: "在 GitHub 上编辑此页",
       },
     },
   },
-
+  
   encrypt: {
     config: {
       "/blog/index.html": ["agis4915"],
