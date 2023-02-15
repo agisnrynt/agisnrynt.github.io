@@ -3,8 +3,7 @@ home: true
 layout: BlogHome
 icon: home
 title: Home
-description: Agis is a personal blog
-excerpt: We can learn and help each other about programming on this blog
+description: A documentation blog
 image: /assets/images/wallpaper.jpg
 heroImage: false
 bgImage: /assets/images/wallpaper.jpg
