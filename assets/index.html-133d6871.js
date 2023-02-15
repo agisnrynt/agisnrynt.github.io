@@ -1,1 +1,0 @@
-import{_ as t,X as a,Y as o,Z as n,$ as e,a0 as c}from"./framework-85e73530.js";const r="/logo.png",s={},l=e("p",null,[e("img",{src:r,alt:"Agis Nuryanto",loading:"lazy"}),c(" Ini adalah excerpt")],-1);function _(i,d){return a(),o("div",null,[l,n(" more ")])}const p=t(s,[["render",_],["__file","index.html.vue"]]);export{p as default};
