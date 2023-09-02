@@ -1,6 +1,7 @@
 import { defineUserConfig } from "vuepress";
 import theme from "./theme.js";
 import { searchProPlugin } from "vuepress-plugin-search-pro";
+import { redirectPlugin } from "vuepress-plugin-redirect";
 
 export default defineUserConfig({
   plugins: [
@@ -18,6 +19,15 @@ export default defineUserConfig({
           formatter: "Tag: $content",
         },
       ],
+    }),
+    
+    redirectPlugin({
+      hostname: "http://localhost:8080",
+      config: {
+        "/index.html": "/intro.html",
+        "/zh/index.html": "/intro.html",
+        "/zh/intro.html": "/intro.html",
+      },
     }),
   ],
   base: "/",

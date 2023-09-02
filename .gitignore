@@ -2,7 +2,4 @@ node_modules/
 src/.vuepress/.cache/
 src/.vuepress/.temp/
 src/.vuepress/dist/
-src2/.vuepress/.cache/
-src2/.vuepress/.temp/
-src2/.vuepress/dist/
 package-lock.json

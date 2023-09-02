@@ -1,7 +1,7 @@
 {
   "name": "my-blog",
   "version": "2.0.0",
-  "description": "My personal blog",
+  "description": "My personal blog site",
   "license": "MIT",
   "type": "module",
   "scripts": {
@@ -11,11 +11,11 @@
     "docs:update-package": "npx vp-update"
   },
   "devDependencies": {
-    "@vuepress/client": "2.0.0-beta.66",
-    "vue": "^3.2.47",
-    "vuepress": "2.0.0-beta.66",
-    "vuepress-plugin-blog2": "^2.0.0-beta.235",
-    "vuepress-plugin-search-pro": "^2.0.0-beta.235",
-    "vuepress-theme-hope": "2.0.0-beta.234"
+    "@vuepress/client": "2.0.0-beta.67",
+    "vue": "^3.3.4",
+    "vuepress": "2.0.0-beta.67",
+    "vuepress-plugin-redirect": "^2.0.0-beta.236",
+    "vuepress-plugin-search-pro": "2.0.0-beta.236",
+    "vuepress-theme-hope": "2.0.0-beta.236"
   }
 }
