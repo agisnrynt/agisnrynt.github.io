@@ -1,4 +1,5 @@
 ---
 title: Tutorial
-icon: creative
+icon: lightbulb
+index: false
 ---

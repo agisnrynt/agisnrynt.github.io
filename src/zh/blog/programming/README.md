@@ -1,4 +1,5 @@
 ---
 title: Pemrograman
-icon: template
+icon: laptop-code
+index: false
 ---

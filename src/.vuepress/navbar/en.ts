@@ -1,7 +1,6 @@
 import { navbar } from "vuepress-theme-hope";
 
 export const enNavbar = navbar([
-  "/",
   { text: "Timeline", icon: "line", link: "/timeline/" },
   {
     text: "Category",

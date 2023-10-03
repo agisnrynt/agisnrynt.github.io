@@ -16,10 +16,10 @@ export default hopeTheme({
 
   author: {
     name: "Agis Nuryanto",
-    url: "https://agisnrynt.github.io/about",
+    url: "https://www.linkedin.com/in/agisnrynt/",
   },
 
-  iconAssets: "iconfont",
+  iconAssets: "fontawesome",
 
   logo: "/logo.svg",
 
@@ -85,7 +85,7 @@ export default hopeTheme({
       // sidebar
       sidebar: enSidebar,
 
-      footer: '<a href="/privacy" rel="noopener noreferrer " target="_blank">Privacy</a> |  <a href="/intro" rel="noopener noreferrer " target="_blank">About</a> | <a href="mailto:agisnuryanto@outlook.co.id" rel="noopener noreferrer " target="_blank">Contact</a></br>Theme by <a href="https://theme-hope.vuejs.press/" target="_blank">VuePress Theme Hope</a> | <a href="https://github.com/agisnrynt/agisnrynt.github.io/blob/master/LICENSE" rel="noopener noreferrer " target="_blank">MIT Licensed</a>',
+      footer: "",
 
       displayFooter: true,
 
@@ -109,7 +109,7 @@ export default hopeTheme({
       // sidebar
       sidebar: zhSidebar,
 
-      footer: "默认页脚",
+      footer: "",
 
       displayFooter: true,
 

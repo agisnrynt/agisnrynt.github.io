@@ -2,7 +2,6 @@
 home: true
 layout: BlogHome
 icon: home
-title: Home
 description: A documentation blog
 image: /assets/images/wallpaper.jpg
 heroImage: false
