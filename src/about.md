@@ -4,6 +4,6 @@ timeline: false
 article: false
 ---
 
-# Intro Page
+# About me
 
 Place your introduction and profile here.

@@ -16,7 +16,7 @@ export default hopeTheme({
 
   author: {
     name: "Agis Nuryanto",
-    url: "https://agisnrynt.github.io/intro",
+    url: "https://agisnrynt.github.io/about",
   },
 
   iconAssets: "iconfont",
@@ -91,7 +91,7 @@ export default hopeTheme({
 
       blog: {
         description: "Hi, I am the author of this blog.I love playing games and learn programming, and that's what this blog is for.</br></br>If you found this blog useful, share it on your social media.</br>You can also follow me on my social media links below",
-        intro: "/intro.html",
+        intro: "/about.html",
       },
 
       metaLocales: {
